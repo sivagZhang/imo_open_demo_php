@@ -12,7 +12,7 @@
 
 **企业内部应用**
 
-1. 按照[创建企业自有应用](http://wiki.open.imoffice.com/pages/viewpage.action?pageId=3244078)中的步骤进行操作。其中应用首页地址为：`工程地址/index.php`（举例来说，将demo中的corp目录部署到 ip地址为222.73.30.39的主机上，则pc和移动端的首页地址分别为：`http://222.73.30.39/corp/indexpc.php` 和 `http://222.73.30.39/corp/index.php` *如果你有域名，也可把IP地址换成域名*）
+1. 按照[创建企业自有应用](http://wiki.open.imoffice.com/pages/viewpage.action?pageId=3244078)中的步骤进行操作。其中应用首页地址为：`工程地址/index.php`（举例来说，将demo中的corp目录部署到 ip地址为222.73.30.39的主机上，则pc和移动端的首页地址分别为：`http://222.73.30.39/corp/indexpc.php` 和 `http://222.73.30.39/corp/index.php`;  如果你有域名，也可把IP地址换成域名）
 
 2. 将所建应用对应的CORP_ID，CORP_SECRET，AGENT_ID，填写到corp目录下的config.php里。
 
@@ -29,7 +29,7 @@
 
 1. 按照[创建开放应用](http://wiki.open.imoffice.com/pages/viewpage.action?pageId=3244119)中的步骤进行操作。其中：
 
-  * 首页地址：`工程地址/index.php?corpid=$CORPID$`（举例来说，将demo中的isv目录部署到 ip地址为222.73.30.39的主机上, 则pc和移动端的首页地址分别为：`http://222.73.30.39/isv/indexpc.php?corpid=$CORPID$` 和 `http://222.73.30.39/corp/index.php?corpid=$CORPID$` 如果你有域名，也可把IP地址换成域名）
+  * 首页地址：`工程地址/index.php?corpid=$CORPID$`（举例来说，将demo中的isv目录部署到 ip地址为222.73.30.39的主机上, 则pc和移动端的首页地址分别为：`http://222.73.30.39/isv/indexpc.php?corpid=$CORPID$` 和 `http://222.73.30.39/corp/index.php?corpid=$CORPID$`;  如果你有域名，也可把IP地址换成域名）
   
   * 回调地址：`工程地址/imoCallback.php`，举例如：`http://222.73.30.39/isv/imoCallback.php`
 
